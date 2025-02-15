@@ -2,8 +2,6 @@ package org.jenkinsci.plugins.habitat;
 
 import jenkins.security.MasterToSlaveCallable;
 
-import java.io.File;
-
 public class WindowsChecker extends MasterToSlaveCallable<Boolean, RuntimeException> {
 
     public WindowsChecker() { }

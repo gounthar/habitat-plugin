@@ -1,6 +1,6 @@
 package org.jenkinsci.plugins.habitat;
 
-import java.io.*;
+import java.io.Serializable;
 
 public class LastBuild implements Serializable {
 
